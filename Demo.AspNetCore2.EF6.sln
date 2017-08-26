@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{538C1439-4632-407A-8DCF-E6B65D7361F2}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AspNetCore2.EF6.Data", "Demo.AspNetCore2.EF6.Data\Demo.AspNetCore2.EF6.Data.csproj", "{F5033EBC-A470-4D00-9E52-BAEC1CACBA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AspNetCore2.EF6.Web", "Demo.AspNetCore2.EF6.Web\Demo.AspNetCore2.EF6.Web.csproj", "{C5F5C838-E107-41FB-80FE-65B741647430}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5033EBC-A470-4D00-9E52-BAEC1CACBA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5033EBC-A470-4D00-9E52-BAEC1CACBA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5033EBC-A470-4D00-9E52-BAEC1CACBA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5033EBC-A470-4D00-9E52-BAEC1CACBA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F5C838-E107-41FB-80FE-65B741647430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F5C838-E107-41FB-80FE-65B741647430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F5C838-E107-41FB-80FE-65B741647430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F5C838-E107-41FB-80FE-65B741647430}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18DB275E-848C-4845-A13C-F080091939C5}
+	EndGlobalSection
+EndGlobal
