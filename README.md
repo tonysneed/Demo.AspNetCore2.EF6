@@ -184,7 +184,7 @@
         ```
         GET: http://localhost:50781/api/products
         POST: http://localhost:50781/api/products
-          - Body: {productName":"Ikura","unitPrice":12}
+          - Body: {"productName":"Ikura","unitPrice":12}
         GET: http://localhost:50781/api/products/4
         PUT: http://localhost:50781/api/products/4
           - Body: {"id":4,"productName":"Ikura","unitPrice":13}
